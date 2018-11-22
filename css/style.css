@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
+  font-size: 20px;
+  color: #555555;
 }
 h1 {
   color: #ffffff;
@@ -12,11 +14,23 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+h2 {
+  font-size: 200%;
+  word-spacing: 2px;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
 .back {
-  background: url('../img/header.jpg');
+  background: url('../img/bg11.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.story {
+  margin: 0 10%;
+  line-height: 145%;
+  font-size: 20px;
 }
 
 /* 
