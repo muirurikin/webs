@@ -27,12 +27,37 @@ h2 {
   background-repeat: no-repeat;
   height: 100vh;
 }
+.back-2 {
+  background: url('../img/back.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .story {
   text-align: left;
 }
-
+.outy {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: 700;
+  border-radius: 200px;
+}
+.outy:hover {
+  background-color: #ffffff;
+  border: 1px solid rgb(39, 37, 37);
+  color: rgb(39, 37, 37);
+  padding: 10px 30px;
+  font-weight: 700;
+  border-radius: 200px;
+}
 /* 
 ===========
  Bootstrap 
 ===========
 */
+.lead {
+  font-weight: 400;
+  font-size: 130%;
+  color: #ffffff;
+}
