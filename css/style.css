@@ -32,6 +32,13 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.ft-back{
+  margin-top: 30px;
+  background: url('../img/antoine-barres.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
 .story {
   text-align: left;
 }
@@ -51,6 +58,24 @@ h2 {
   font-weight: 700;
   border-radius: 200px;
 }
+.padded {
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.sel {
+  color: #ffffff;
+  font-size: 120%;
+  display: block;
+}
+.sel span {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+}
+i {
+  font-size: 40px;
+}
 /* 
 ===========
  Bootstrap 
@@ -60,4 +85,26 @@ h2 {
   font-weight: 400;
   font-size: 130%;
   color: #ffffff;
+}
+.list-group-item:first-child {
+  color: #007bff;
+  text-transform: uppercase;
+}
+.list-group-item:nth-child(2) {
+  color: #ffffff;
+  font-size: 80%;
+}
+.list-group-item:nth-child(2) span {
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+.rounded-circle {
+  background-color: #ffffff;
+  padding: 40px;
+}
+.rounded-circle:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 40px;
 }
